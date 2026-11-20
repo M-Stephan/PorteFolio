@@ -1,5 +1,59 @@
 #home-page {
+    position: relative;
+    width: 100%;
+    height: 100%;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
-    padding-left: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+#home-block-1 {
+    position: relative;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.home-block-content {
+    position: relative;
+    display: block;
+    margin: 100px;
+    padding: 20px;
+    border: 1px solid rgba(103, 107, 167, 0.123);
+    border-radius: 5px;
+    background-color: rgba(103, 107, 167, 0.397);
+}
+
+#home-block-2 {
+    position: relative;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+#home-gallery-btn {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(36, 38, 66);
+    color: aliceblue;
+}
+
+#home-gallery-btn:hover {
+    color: rgb(80, 255, 249) !important;
+    padding-right: 12px;
+    padding-left: 12px;
+    box-shadow: 0px 0px 15px 15px rgba(0, 175, 245, 0.123);
 }
