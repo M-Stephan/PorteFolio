@@ -1,0 +1,39 @@
+nav {
+    grid-row: 1 / 2;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    align-items: top;
+    place-items: top;
+    text-align: center;
+}
+
+nav h1 {
+    grid-row: 1 / 2;
+}
+
+nav a {
+    height: 20px;
+    grid-row: 1 / 2;
+    position: relative;
+    background-color: rgb(46, 48, 77);
+    text-decoration: none;
+    color: aliceblue !important;
+    border: 1px solid rgb(107, 107, 107);
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    border-radius: 0px 0px 7px 7px;
+}
+
+nav a:hover {
+    padding-top: 20px;
+    color: rgb(80, 255, 249) !important;
+}
+
+nav a::after {
+    background-color: grey;
+    text-decoration: none;
+    color: aliceblue !important;
+}
